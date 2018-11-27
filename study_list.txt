@@ -1,0 +1,12 @@
+2018.11.27 
+ 파이썬 공부 
+ # numpy공부 (http://taewan.kim/post/numpy_cheat_sheet/)
+ 0. 그래프를 그리려면 matplotlib.pyplot, pylab을 사용하면 된다.
+ 1. 배열 초기화 하는 방법 : np.zeros, np.eye, np.full, np.ones
+ 2. 데이터 생성 : np.linspace, np.arange, np.logspace -> 몇부터 몇까지 어떤 간격으로 만들 수 있다. 시간 축 생성하는데 좋을 듯
+ 3. 랜덤 수 생성 : 많이 쓸거같은 것 -> np.random.random / 다른 함수는 와닿지 않아서 다시 봐야할듯
+ 4. 생성한 배열 저장, 불러오기 : np.save, np.load는 2진수로 저장(여러 행렬 저장은 np.savez). txt로 저장 할 수도 있고, delimiter를 사용하면 데이터를 구분할 수 있는 구분자가 생김(ex ","). 저장,불러오는 경로가 중요하다. 파이썬 파일이 있는 경로로 부터 빠져나올려면 "../"를 사용 
+
+ # class (https://dojang.io/mod/page/view.php?id=1072)
+ 코딩 도장 클래스사용하기 34 공부
+ 파이썬 2.7 버전의 경우 위 예제의 input 대신 raw_input을 사용해야 한다.
